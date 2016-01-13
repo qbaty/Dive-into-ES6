@@ -13,6 +13,5 @@ JOHN.name = 'johnny';//JOHN = { name : johnny }
 ```javascript
 const JOHN = { name : 'john' };
 JOHN = { name : 'johnny' };
-console.log(JOHN);//{ name : 'john' }
+console.log(JOHN);//{ name : 'johnny' }
 ```
-
