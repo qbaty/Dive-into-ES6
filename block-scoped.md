@@ -15,3 +15,4 @@ const JOHN = { name : 'john' };
 JOHN = { name : 'johnny' };
 console.log(JOHN);//{ name : 'john' }
 ```
+
