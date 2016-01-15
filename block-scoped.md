@@ -1,7 +1,7 @@
 # Block-scoped
 
 # let 和 const
-在ES6里加入了新的关键字 *let* 和 *const*， 这两个新的关键字表示新的定义变量的方式，而他们定义的变量都是基于块级作用域。这是ES6 新引入的概念，*let* 相当于是 *var* 的块级作用域版，而*const* 定义的是块级作用域的常量。*let* 和 *const* 使用起来比 *var* 更加严格一些，在块级作用域中 *let* 和 *const* 定义的变量必须先定义，再使用否则会报错。
+在ES6里加入了新的关键字 *let* 和 *const*， 这两个新的关键字表示新的定义变量的方式，而他们定义的变量都是基于块级作用域。这是ES6 新引入的概念，*let* 相当于是 *var* 的块级作用域版，而*const* 定义的是块级作用域的常量。
 
 ```javascript
 const JOHN = { name : 'john' };
@@ -14,4 +14,21 @@ JOHN.name = 'johnny';//JOHN = { name : johnny }
 const JOHN = { name : 'john' };
 JOHN = { name : 'johnny' };
 console.log(JOHN);//{ name : 'johnny' }
+```
+
+另外 *let* 和 *const* 使用起来比 *var* 更加严格一些，在块级作用域中 *let* 和 *const* 定义的变量必须先定义，再使用否则会报错。而且同一个作用域中 *let* 和 *const* 不能被重复定义。
+
+```javascript
+{
+  var str = 'abcd';
+  ...
+  let str;
+  //error
+}
+
+let str = 'abcd';
+if (true) {
+  console.log(str); //error
+  let str = 'abc';
+}
 ```
