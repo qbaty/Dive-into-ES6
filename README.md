@@ -1,6 +1,7 @@
-# Dive-into-ES6
+# 深入浅出 Ecmascript 6
 
-# Summary
+## Summary
 
+## content
 * [Block-scoped](block-scoped.md)
 * [Classes](classes.md)
