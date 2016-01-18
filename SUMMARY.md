@@ -3,5 +3,5 @@
 * [前言](README.md)
 * [基本概念](basic-concept.md)
 * [作用域](block-scoped.md)
-* [Javascript 中的类](classes.md)
+* [类](classes.md)
 
