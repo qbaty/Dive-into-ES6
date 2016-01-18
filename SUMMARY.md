@@ -5,6 +5,6 @@
 * [作用域](block-scoped.md)
 * [继承](classes.md)
 * [箭头函数](Arrow-Funciton.md)
-* 解构
+* [解构](Destructuring.md)
 * 迭代器
 
