@@ -1,6 +1,6 @@
-# 深入浅出 Ecmascript 6
+# 深入浅出 Ecmascript 2015
 
-## Ecmascirpt
+## Ecmascirpt 2015
 
 ## 目录
 * [前言]()
