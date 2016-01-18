@@ -5,7 +5,5 @@
 * [作用域](block-scoped.md)
 * [箭头函数](Function.md)
 * [解构](Destructuring.md)
-* [继承](classes.md)
-   * 类
 * [迭代器](Generator.md)
 
