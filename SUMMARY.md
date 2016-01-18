@@ -6,4 +6,5 @@
 * [箭头函数](Function.md)
 * [解构](Destructuring.md)
 * [迭代器](Generator.md)
+* 继承
 
