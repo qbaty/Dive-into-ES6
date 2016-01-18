@@ -6,5 +6,5 @@
 * [继承](classes.md)
 * [箭头函数](Arrow-Funciton.md)
 * [解构](Destructuring.md)
-* 迭代器
+* [迭代器](Generator.md)
 
